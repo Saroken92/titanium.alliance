@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Электротехническая компания - Профессиональные услуги</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Логотип компании">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#about">О компании</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-contacts">
+                <a href="tel:+79111234567"><i class="fas fa-phone"></i> +7 911 123-45-67</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Слайдер -->
+    <section class="hero-slider">
+        <div class="slide active">
+            <div class="slide-content">
+                <h1>Электротехнические решения для промышленности</h1>
+                <p>Полный цикл работ от проектирования до ввода в эксплуатацию</p>
+                <a href="#contact" class="btn">Отправить запрос</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Электромонтаж</h3>
+                    <p>Профессиональный монтаж электроустановок для промышленных и коммерческих объектов</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Автоматизация</h3>
+                    <p>Современные решения по автоматизации производственных линий</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3>Энергорешения</h3>
+                    <p>Эффективные энергоконцепции и системы резервного питания</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- О компании -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>О нашей компании</h2>
+                <p>Мы - ведущая электротехническая компания с более чем 15-летним опытом работы. Наши специалисты реализуют проекты любой сложности по всей России.</p>
+                <ul class="about-features">
+                    <li><i class="fas fa-check"></i> Сертифицированные специалисты</li>
+                    <li><i class="fas fa-check"></i> Современное оборудование</li>
+                    <li><i class="fas fa-check"></i> Индивидуальные решения</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="images/about.jpg" alt="О нашей компании">
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Свяжитесь с нами</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Контактная информация</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> ул. Примерная, 123, Москва</p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+79111234567">+7 911 123-45-67</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@electro-tech.ru">info@electro-tech.ru</a></p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <input type="text" name="name" placeholder="Ваше имя" required>
+                        <input type="email" name="email" placeholder="Ваш email" required>
+                        <input type="tel" name="phone" placeholder="Телефон">
+                        <textarea name="message" placeholder="Ваше сообщение" required></textarea>
+                        <button type="submit" class="btn">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <img src="images/logo-white.png" alt="Логотип" class="footer-logo">
+                    <p>Профессиональные электротехнические услуги по всей России.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Услуги</h3>
+                    <ul>
+                        <li><a href="#">Электромонтаж</a></li>
+                        <li><a href="#">Автоматизация</a></li>
+                        <li><a href="#">Энергорешения</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Контакты</h3>
+                    <p>ул. Примерная, 123<br>Москва</p>
+                    <p>info@electro-tech.ru</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Электротехническая компания. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
