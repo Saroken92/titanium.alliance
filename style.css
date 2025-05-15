@@ -98,28 +98,37 @@ nav ul li a:hover {
 
 /* Слайдер */
 .hero-slider {
-    height: 600px;
-    position: relative;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Добавлено для центрирования по горизонтали */
+    text-align: center;
     margin-top: 80px;
-    background: url('slide1.jpg') no-repeat center center/cover;
 }
 
 .slide-content {
-    position: absolute;
-    bottom: 100px;
-    left: 50px;
-    max-width: 600px;
-    color: var(--white);
+    max-width: 800px;
+    width: 100%; /* Добавлено */
+    padding: 0 20px;
+    margin: 0 auto; /* Добавлено для дополнительного центрирования */
 }
 
 .slide-content h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 20px;
+    line-height: 1.2;
 }
 
 .slide-content p {
     font-size: 1.2rem;
     margin-bottom: 30px;
+}
+
+.slide-content .btn {
+    margin-top: 20px;
+}
 }
 
 /* Услуги */
