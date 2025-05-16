@@ -415,4 +415,23 @@ footer {
   .logo {
     z-index: 1001; /* Чтобы лого было над меню */
   }
+  /* Фикс текста для мобильных */
+@media (max-width: 768px) {
+  .hero-slider h1 {
+    font-size: 1.8rem !important;
+    line-height: 1.3 !important;
+    padding: 0 15px !important;
+  }
+
+  .hero-slider p {
+    font-size: 1rem !important;
+    padding: 0 20px !important;
+  }
+
+  .hero-slider .btn {
+    font-size: 14px !important;
+    padding: 10px 20px !important;
+  }
 }
+}
+
