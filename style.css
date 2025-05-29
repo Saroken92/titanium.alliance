@@ -432,6 +432,27 @@ footer {
     font-size: 14px !important;
     padding: 10px 20px !important;
   }
+}/* Унифицируем стили кнопок */
+.contact-form .btn {
+  background: var(--secondary-color) !important;
+  color: white !important;
+  padding: 12px 25px !important;
+  border-radius: 5px !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  border: none !important;
+  cursor: pointer !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  display: inline-block !important;
+  text-align: center !important;
+  text-decoration: none !important;
+}
+
+.contact-form .btn:hover {
+  background: var(--accent-color) !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
 }
 }
 
