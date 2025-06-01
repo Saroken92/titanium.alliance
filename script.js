@@ -47,7 +47,3 @@ const burgerMenu = {
     this.burgerBtn.innerHTML = '<i class="fas fa-bars"></i>';
   }
 };
-
-// Запуск только после полной загрузки страницы
-document.addEventListener('DOMContentLoaded', () => burgerMenu.init());
-// Конец кода для бургера
