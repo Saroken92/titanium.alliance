@@ -361,47 +361,7 @@ footer {
         left: 20px;
         bottom: 50px;
     }
-    /*отсюда новое /*
-    /* Мобильное меню (только шапка) */
-@media (max-width: 768px) {
-  /* Скрываем обычное меню */
-  nav ul {
-    display: none;
-  }
-
-  /* Стили для бургер-кнопки */
-  .burger-btn {
-    display: block;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-    padding: 10px;
-    z-index: 1001;
-  }
-
-  /* Показываем меню при открытии */
-  nav.active ul {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: var(--primary-color);
-    padding: 60px 20px;
-    box-sizing: border-box;
-    z-index: 1000;
-  }
-
-  /* Стили пунктов меню */
-  nav.active ul li {
-    margin: 15px 0;
-    text-align: center;
-  }
-
+   
   nav.active ul li a {
     color: white;
     font-size: 18px;
