@@ -414,5 +414,17 @@ footer {
   transform: translateY(-3px) !important;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
 }
+    /* Фикс для белой кнопки в мобильной версии */
+@media (max-width: 768px) {
+  .contact-form .btn {
+    background-color: var(--secondary-color) !important;
+    color: white !important;
+    border: 2px solid white !important;
+  }
+  
+  .contact-form .btn:hover {
+    background-color: var(--accent-color) !important;
+  }
+}
 }
 
